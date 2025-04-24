@@ -1,17 +1,9 @@
-# coding by : SK SIDDIK KHAN
-# coding language : python
-# github : Exdevilex
-
 import os
-
-# Install toilet if not already installed
 os.system("pkg install toilet -y")
 os.system("clear")
 
-# Decorative line
 line = "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
-# Banner to display
 banner = f"""
 {line}
 
@@ -45,7 +37,7 @@ def main():
 def future():
     os.system("clear")
     print(banner)
-    print("《■》 EXAMPLE •>>> SK SIDDIK | GOJO | YOUR NAME .etc")
+    print("《■》 EXAMPLE •>>> SK SIDDIK KHAN ")
     print(line)
     name = input("《■》 INPUT YOUR NAME •>>> ")
     print(line)
@@ -57,7 +49,7 @@ def future():
 def smblok():
     os.system("clear")
     print(banner)
-    print("《■》 EXAMPLE •>>> SK SIDDIK | GOJO | YOUR NAME .etc")
+    print("《■》 EXAMPLE •>>> SK SIDDIK KHAN ")
     print(line)
     name = input("《■》 INPUT YOUR NAME •>>> ")
     print(line)
