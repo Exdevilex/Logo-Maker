@@ -1,55 +1,70 @@
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━      PRESS ENTER TO BACK MAIN MENU
+# coding by : SK SIDDIK KHAN
+# coding language : python
+# github : Exdevilex
 
-
-
-#coding by : SK SIDDIK KHAN
-#coding language : python
-#github : Exdevilex
 import os
-os.system("pkg install toilet")
+
+# Install toilet if not already installed
+os.system("pkg install toilet -y")
 os.system("clear")
-line=f"{44*'━'}"
-banner=f"""\t╻  ┏━┓┏━╸┏━┓   ┏┳┓┏━┓╻┏ ┏━╸┏━┓
+
+# Decorative line
+line = "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+# Banner to display
+banner = f"""
+{line}
+{line}      PRESS ENTER TO BACK MAIN MENU
+
+\t╻  ┏━┓┏━╸┏━┓   ┏┳┓┏━┓╻┏ ┏━╸┏━┓
 \t┃  ┃ ┃┃╺┓┃ ┃   ┃┃┃┣━┫┣┻┓┣╸ ┣┳┛
 \t┗━╸┗━┛┗━┛┗━┛   ╹ ╹╹ ╹╹ ╹┗━╸╹┗╸
 {line}
 《■》 DEVELOPER •>>> SK SIDDIK KHAN
 《■》 TELEGRAM  •>>> t.me/busy1here
 《■》 TOOLTYPE  •>>> VIRAL 2 LOGO MAKER
-{line}"""
+{line}
+"""
+
 def main():
- print(banner)
- print("《1》 VIRAL STYLES LOGO 1")
- print("《2》 VIRAL STYLES LOGO 2")
- print(line)
- _logo_=input(f"《■》 CHOICE •>>> ")
- if _logo_ in ["1"]:
-  future()
- if _logo_ in ["2"]:
-  smblok()
+    os.system("clear")
+    print(banner)
+    print("《1》 VIRAL STYLES LOGO 1")
+    print("《2》 VIRAL STYLES LOGO 2")
+    print(line)
+    choice = input("《■》 CHOICE •>>> ")
+
+    if choice == "1":
+        future()
+    elif choice == "2":
+        smblok()
+    else:
+        print("《■》 INVALID OPTION! TRY AGAIN.")
+        input("《■》 PRESS ENTER TO CONTINUE...")
+        main()
+
 def future():
- os.system("clear")
- print(banner)
- print("《■》 EXAMPLE •>>> SK SIDDIK | GOJO | YOUE NAME .etc")
- print(line)
- nam=input("《■》INPUT YOUE NAME •>>> ")
- print(line)
- os.system(f"toilet -f future {nam}")
- print(line)
- sami=input("PRESS ENTER TO BACK MAIN MENU")
- os.system("clear")
- main()
+    os.system("clear")
+    print(banner)
+    print("《■》 EXAMPLE •>>> SK SIDDIK | GOJO | YOUR NAME .etc")
+    print(line)
+    name = input("《■》 INPUT YOUR NAME •>>> ")
+    print(line)
+    os.system(f"toilet -f future '{name}'")
+    print(line)
+    input("《■》 PRESS ENTER TO BACK MAIN MENU")
+    main()
+
 def smblok():
- os.system("clear")
- print(banner)
- print("《■》EXAMPLE •>>> SK SIDDIK | GOJO | YOUE NAME .etc")
- print(line)
- nam=input("《■》INPUT YOUE NAME •>>> ")
- print(line)
- os.system(f"toilet -f smblock {nam}")
- print(line)
- sami=input("PRESS ENTER TO BACK MAIN MENU")
- os.system("clear")
- main()
+    os.system("clear")
+    print(banner)
+    print("《■》 EXAMPLE •>>> SK SIDDIK | GOJO | YOUR NAME .etc")
+    print(line)
+    name = input("《■》 INPUT YOUR NAME •>>> ")
+    print(line)
+    os.system(f"toilet -f smblock '{name}'")
+    print(line)
+    input("《■》 PRESS ENTER TO BACK MAIN MENU")
+    main()
+
 main()
