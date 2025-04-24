@@ -14,7 +14,6 @@ line = "━━━━━━━━━━━━━━━━━━━━━━━━
 # Banner to display
 banner = f"""
 {line}
-{line}      PRESS ENTER TO BACK MAIN MENU
 
 \t╻  ┏━┓┏━╸┏━┓   ┏┳┓┏━┓╻┏ ┏━╸┏━┓
 \t┃  ┃ ┃┃╺┓┃ ┃   ┃┃┃┣━┫┣┻┓┣╸ ┣┳┛
